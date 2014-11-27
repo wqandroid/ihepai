@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titlebar_height"
+    android:background="@color/theme_black"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#2669b8"
+        android:clickable="true"
+        android:src="@drawable/btn_camera" >
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/camera" >
+
+        <RadioButton
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:button="@null"
+            android:background="@drawable/user" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/camera" >
+
+        <RadioButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:button="@null"
+            android:checked="true"
+            android:background="@drawable/home" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:state_checked="true" >  
+        <shape>  
+             <solid android:color="@color/item_green"/>  
+            <!-- 描边 -->  
+            <stroke  
+                    android:width="@dimen/ck_broden"  
+                android:color="#ffffff"  
+                />  
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="@dimen/ck_radius" />  
+            <padding  
+                android:left="6dp"  
+                android:top="6dp"  
+                android:right="6dp"  
+                android:bottom="6dp" />  
+        </shape>  
+    </item>  
+    <item>        
+        <shape>  
+            <solid android:color="@color/item_green"/>  
+            <stroke  
+                  android:width="@dimen/ck_broden"   
+                android:color="#00ffffff" />  
+            <corners  
+               android:radius="@dimen/ck_radius"
+            />  
+            <padding  
+                android:left="6dp"  
+                android:top="6dp"  
+                android:right="6dp"  
+                android:bottom="6dp" />  
+        </shape>  
+    </item>  
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable/ck_green.xml -->

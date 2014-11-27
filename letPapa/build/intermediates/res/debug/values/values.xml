@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="theme_data">
+        <item>3#寻找另一半#</item>
+        <item>4#萌萌哒#</item>
+        <item>5#女神、男神#</item>
+        <item>6#恶搞无下线#</item>
+        <item>7#创意神合拍#</item>
+        <item>8#2B专区#</item>
+    </string-array>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background_tab_pressed">#61616161</color>
+    <color name="black">#000000</color>
+    <color name="card_white">#ffffff</color>
+    <color name="e5">#e5e5e5</color>
+    <color name="grey_100">#f5f5f5</color>
+    <color name="grey_150">#f2f2f2</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_50">#fafafa</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="icon_disabled_color">#DD777777</color>
+    <color name="item_black">#000000</color>
+    <color name="item_blue">#479cff</color>
+    <color name="item_fen">#ea68a2</color>
+    <color name="item_gray">#898989</color>
+    <color name="item_green">#009944</color>
+    <color name="item_red">#ca0000</color>
+    <color name="item_white">#ffffff</color>
+    <color name="item_yellow">#fff100</color>
+    <color name="psb_selctuib">#dfdfdf</color>
+    <color name="red">#ca0000</color>
+    <color name="red1">#e51c23</color>
+    <color name="red_focuse">#b0120a</color>
+    <color name="red_mid">#d01716</color>
+    <color name="theme_amber">#ffc107</color>
+    <color name="theme_bg">#eeeeee</color>
+    <color name="theme_black">#303030</color>
+    <color name="theme_blue">#5677fc</color>
+    <color name="theme_blue_click">#2c5ab4</color>
+    <color name="theme_blue_grey">#607d8b</color>
+    <color name="theme_brown">#795548</color>
+    <color name="theme_cyan">#00bcd4</color>
+    <color name="theme_deep_orange">#ff5722</color>
+    <color name="theme_deep_purple">#673ab7</color>
+    <color name="theme_green">#259b24</color>
+    <color name="theme_indigo">#3f51b5</color>
+    <color name="theme_light_blue">#03a9f4</color>
+    <color name="theme_orange">#ff9800</color>
+    <color name="theme_pink">#e91e63</color>
+    <color name="theme_purple">#9c27b0</color>
+    <color name="theme_teal">#009688</color>
+    <color name="theme_yellow">#ffeb3b</color>
+    <color name="txt_black">#555555</color>
+    <color name="txt_blue">#2669b8</color>
+    <color name="txt_dark">#999999</color>
+    <color name="txt_desrption">#565656</color>
+    <color name="txt_subtitle_color">#747474</color>
+    <color name="txt_title_color">#4d4d4d</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="Emojicon"><attr format="dimension" name="emojiconSize"/></declare-styleable>
+    <declare-styleable name="PageControl"><attr format="integer" name="pagesize"/><attr format="dimension" name="padings"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/><attr format="reference|color" name="adapterViewBackground"/><attr format="reference|color" name="headerBackground"/><attr format="color" name="headerTextColor"/><attr name="mode"><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/><flag name="both" value="0x3"/></attr></declare-styleable>
+    <declare-styleable name="RotateImageView"><attr format="integer" name="degree"/></declare-styleable>
+    <declare-styleable name="StickyScrollView"><attr format="dimension" name="stuckShadowHeight"/><attr format="reference" name="stuckShadowDrawable"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <declare-styleable name="TouchOverlayView"><attr format="boolean" name="islandspace"/></declare-styleable>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="around_pading">8dp</dimen>
+    <dimen name="ck_broden">2dp</dimen>
+    <dimen name="ck_radius">2dp</dimen>
+    <dimen name="dilog_title_heght">64dp</dimen>
+    <dimen name="fliter_img_padingleft">6dp</dimen>
+    <dimen name="fliter_img_size">64dp</dimen>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/build/intermediates/exploded-aar/LetPapa/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="lager_txt">20sp</dimen>
+    <dimen name="layer_selection_height">72dp</dimen>
+    <dimen name="mid_txt">16sp</dimen>
+    <dimen name="msmll_txt">14sp</dimen>
+    <dimen name="radius">3dp</dimen>
+    <dimen name="smll_txt">12sp</dimen>
+    <dimen name="titlebar_height">56dp</dimen>
+    <dimen name="titlebar_smllsize">18sp</dimen>
+    <dimen name="titlebar_txtsize">22sp</dimen>
+    <dimen name="xlager_txt">24sp</dimen>
+    <dimen name="xmid_txt">18sp</dimen>
+    <dimen name="xsmll_txt">10sp</dimen>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/build/intermediates/exploded-aar/LetPapa/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="gridview" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="webview" type="id"/>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">i合拍</string>
+    <string name="camera_disabled">相机不可用</string>
+    <string name="camera_error_title">相机故障</string>
+    <string name="cannot_connect_camera">不能连接到相机</string>
+    <string name="dialog_ok">好</string>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="douban">豆瓣</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="evernote">印象笔记</string>
+    <string name="facebook">Facebook</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="kaixin">开心网</string>
+    <string name="linkedin">Linked In</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="oauth_cancle">授权取消</string>
+    <string name="oauth_error">授权出错</string>
+    <string name="oauth_success">授权成功</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/build/intermediates/exploded-aar/LetPapa/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_pull_label">拉动刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">加载中…</string>
+    <string name="pull_to_refresh_release_label">释放刷新…</string>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <string name="renren">人人网</string>
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="youdao">有道云笔记</string>
+    <!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+    <style name="customDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="custom_alert_dialog" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@drawable/null_bg</item>
+    </style>
+    <style name="filer_style">
+        <item name="android:layout_width">@dimen/fliter_img_size</item>
+        <item name="android:layout_height">@dimen/fliter_img_size</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:onClick">doclick</item>
+    </style>
+    <style name="finshstyle">
+        <item name="android:layout_width">@dimen/titlebar_height</item>
+            <item name="android:scaleType">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">dofinish</item>
+        <item name="android:src">@drawable/finsh</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/item_bg</item>
+    </style>
+    <style name="popright_text_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/popover_item_bg</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="popsetting_text_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/bitmap_fa_white</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/setting_txt</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+    <style name="setting_img">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="title_txt">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/item_bg</item>
+    </style>
+    <style name="titlebar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/titlebar_height</item>
+        <item name="android:background">@drawable/title_barbg</item>
+    </style>
+</resources>

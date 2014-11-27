@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme_bitmap_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/titlebar" >
+
+        <!-- 
+        <TextView
+            android:id="@+id/cancle"
+            style="@style/title_txt"
+            android:text="取消"
+            android:textColor="@color/txt_title_color" />
+             -->
+        <ImageView
+            style="@style/finshstyle"
+             />
+        
+        <TextView
+            android:id="@+id/send"
+            style="@style/title_txt"
+            android:layout_alignParentRight="true"
+            android:text="发布"
+            android:textColor="@color/red" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+         >
+
+        <FrameLayout
+            android:id="@+id/rotate_view"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="10dp" >
+
+            <com.wq.letpapa.customview.WQRotateImageView
+                android:id="@+id/iv_shot"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/psb2" />
+        </FrameLayout>
+
+        <com.rockerhieu.emojicon.EmojiconEditText
+            android:id="@+id/describe"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignTop="@+id/rotate_view"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/rotate_view"
+            android:background="@null"
+            android:cursorVisible="true"
+            android:gravity="left|top"
+            android:hint="敢不敢说点什么..."
+            android:maxLength="144"
+            android:maxLines="3"
+            android:textColor="@color/theme_black"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" >
+            <requestFocus />
+        </com.rockerhieu.emojicon.EmojiconEditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="4dp"
+            android:paddingRight="10dp"
+            android:text="144"
+            android:textColor="@color/txt_dark"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_face"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/btn_face" />
+
+        <ImageView
+            android:id="@+id/iv_topic"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:visibility="invisible"
+            android:layout_toRightOf="@+id/iv_face"
+            android:src="@drawable/btn_topic" />
+
+        <CheckBox
+            android:id="@+id/ck_location"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:layout_toLeftOf="@+id/textView1"
+            android:background="@drawable/locations"
+            android:button="@null"
+            android:enabled="false"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/ck_location"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/ck_location"
+            android:drawableLeft="@drawable/location_txt"
+            android:gravity="center_vertical"
+            android:maxLength="22"
+            android:singleLine="true"
+            android:text="北京市北苑路北"
+            android:textColor="#8c837f"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_topic"
+            android:layout_alignLeft="@+id/iv_topic"
+            android:text="#2B专区#"
+            android:background="@drawable/bitmap_fa_white"
+            android:textSize="@dimen/lager_txt"
+            android:textColor="@color/theme_txt" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/e5" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:paddingRight="60dp" >
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="分享到："
+            android:textColor="@color/txt_dark" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/share"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+                <CheckBox
+                    android:id="@+id/share_friend_ring"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:button="@drawable/share_friend_selctor"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <CheckBox
+                    android:id="@+id/share_qq_zone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:button="@drawable/share_qqzone_selctor"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <CheckBox
+                    android:id="@+id/share_sina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:button="@drawable/share_xinlang_selctor" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/e5" />
+
+    <View
+      android:id="@+id/dimissview"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/e5" />
+
+    <FrameLayout
+        android:id="@+id/emojicons_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#434343"
+        android:visibility="visible" >
+
+        <fragment
+            android:id="@+id/emojicons"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            class="com.rockerhieu.emojicon.EmojiconsFragment" />
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/layout/act_sendimg_layout.xml -->

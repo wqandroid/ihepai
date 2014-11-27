@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+
+            <!--
+            渐变 
+            <gradient  
+                android:startColor="#10cfde"  
+                android:endColor="#10cfde"  
+                android:type="linear"  
+                android:gradientRadius="50" />
+            -->
+
+            <solid android:color="@color/grey_150" />
+            <!-- 圆角 -->
+            <corners android:radius="3dp" />
+
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape></item>
+    <item><shape>
+            <solid android:color="@color/white" />
+            <corners android:radius="3dp" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape></item>
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable/button_regist.xml -->

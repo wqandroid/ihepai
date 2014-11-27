@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingTop="35dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.opengl.GLSurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/shoot_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <RelativeLayout
+            android:id="@+id/camera_emptyview"
+            android:layout_width="match_parent"
+            android:layout_height="420px" >
+
+            <com.wq.letpapa.customview.TouchOverlayView
+                android:id="@+id/touchOverlayView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </com.wq.letpapa.customview.TouchOverlayView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:id="@+id/iv_flash"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/flash_off" />
+
+                <ImageView
+                    android:id="@+id/iv_changecamera"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/flip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/camera_emptyview"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#a0000000"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:visibility="invisible"
+                android:layout_alignParentTop="true"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/filter_heibai"
+                        android:layout_width="@dimen/fliter_img_size"
+                        android:layout_height="@dimen/fliter_img_size"
+                        android:layout_marginLeft="@dimen/fliter_img_padingleft"
+                        android:onClick="doclick"
+                        android:src="@drawable/filters_ansel" />
+
+                    <ImageView
+                        android:id="@+id/filter_holga"
+                        android:layout_width="@dimen/fliter_img_size"
+                        android:layout_height="@dimen/fliter_img_size"
+                        android:layout_marginLeft="@dimen/fliter_img_padingleft"
+                        android:onClick="doclick"
+                        android:src="@drawable/filters_holga" />
+
+                    <ImageView
+                        android:id="@+id/filters_summer"
+                        android:layout_width="@dimen/fliter_img_size"
+                        android:layout_height="@dimen/fliter_img_size"
+                        android:layout_marginLeft="@dimen/fliter_img_padingleft"
+                        android:onClick="doclick"
+                        android:src="@drawable/filters_summer" />
+
+                    <ImageView
+                        android:id="@+id/filter_pro"
+                        android:layout_width="@dimen/fliter_img_size"
+                        android:layout_height="@dimen/fliter_img_size"
+                        android:layout_marginLeft="@dimen/fliter_img_padingleft"
+                        android:onClick="doclick"
+                        android:src="@drawable/filters_pro" />
+
+                    <ImageView
+                        android:id="@+id/filters_shoreline"
+                        android:layout_width="@dimen/fliter_img_size"
+                        android:layout_height="@dimen/fliter_img_size"
+                        android:layout_marginLeft="@dimen/fliter_img_padingleft"
+                        android:onClick="doclick"
+                        android:src="@drawable/filters_shoreline" />
+
+                    <ImageView
+                        android:id="@+id/filters_vivid"
+                        android:layout_width="@dimen/fliter_img_size"
+                        android:layout_height="@dimen/fliter_img_size"
+                        android:layout_marginLeft="@dimen/fliter_img_padingleft"
+                        android:onClick="doclick"
+                        android:src="@drawable/filters_vivid" />
+
+                    <ImageView
+                        android:id="@+id/filters_sol"
+                        android:layout_width="@dimen/fliter_img_size"
+                        android:layout_height="@dimen/fliter_img_size"
+                        android:layout_marginLeft="@dimen/fliter_img_padingleft"
+                        android:onClick="doclick"
+                        android:src="@drawable/filters_sol" />
+
+                    <ImageView
+                        android:id="@+id/filters_instant"
+                        android:layout_width="@dimen/fliter_img_size"
+                        android:layout_height="@dimen/fliter_img_size"
+                        android:layout_marginLeft="@dimen/fliter_img_padingleft"
+                        android:onClick="doclick"
+                        android:src="@drawable/filters_instant" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <RelativeLayout
+                android:id="@+id/bootom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#222222" >
+
+                <ImageView
+                    android:id="@+id/take_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:src="@drawable/take_camera" />
+
+                <ImageView
+                    android:id="@+id/iv_chose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:clickable="true"
+                    android:src="@drawable/camera_library" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:clickable="true"
+                    android:src="@drawable/camera_lenses" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/layout/fragment_main.xml -->

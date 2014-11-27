@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity" xmlns:app1="http://schemas.android.com/apk/res/com.wq.letpapa">
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ImageSwitcher>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/welcome_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="166dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sina_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_regist"
+            android:text="微博登陆"
+            android:textColor="@color/red"
+            android:onClick="login"
+            android:textSize="@dimen/lager_txt" />
+
+        <Button
+            android:id="@+id/qq_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:onClick="login"
+            android:background="@drawable/button_regist"
+            android:text="QQ登陆"
+            android:textColor="@color/red"
+            android:textSize="@dimen/lager_txt" />
+    </LinearLayout>
+
+    <com.wq.letpapa.customview.PageControl
+        app1:pagesize="5"
+        android:id="@+id/pageControl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        >
+</com.wq.letpapa.customview.PageControl>
+
+</RelativeLayout><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+            <solid android:color="#ededed" />
+
+            <stroke android:width="1px" android:color="@color/red" />
+
+            <corners android:radius="3dp" />
+
+            <padding android:bottom="6dp" android:left="6dp" android:right="6dp" android:top="6dp" />
+        </shape></item>
+    <item><shape>
+            <solid android:color="#fbfbfb" />
+            <!-- 描边 -->
+            <stroke android:width="1px" android:color="@color/red" />
+            <!-- 圆角 -->
+            <corners android:radius="3dp" />
+
+            <padding android:bottom="6dp" android:left="6dp" android:right="6dp" android:top="6dp" />
+        </shape></item>
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable/button_cancle.xml -->

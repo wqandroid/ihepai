@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wq.letpapa.customview.ControlPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.wq.letpapa"
+    android:id="@+id/control_panel"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/theme_black"
+    android:minWidth="128dp" >
+
+    <com.wq.letpapa.customview.RotateImageView
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:padding="2dp"
+        android:src="@drawable/take_camera"
+        app:degree="90" />
+
+    <com.wq.letpapa.customview.RotateImageView
+        android:padding="10dp"
+        android:id="@+id/iv_chose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:degree="90"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:src="@drawable/camera_library" />
+
+    <com.wq.letpapa.customview.RotateImageView
+        android:id="@+id/iv_chosefilter"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        app:degree="90"
+        android:src="@drawable/camera_rotated" />
+
+</com.wq.letpapa.customview.ControlPanelLayout><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/layout/camera_control.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:fromAlpha="1"
+        android:toAlpha="0"
+        android:duration="1200"
+        />
+
+    <scale 
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:toYScale="10"
+        android:toXScale="10"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="5200"
+        />
+</set><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/anim/fadout.xml -->

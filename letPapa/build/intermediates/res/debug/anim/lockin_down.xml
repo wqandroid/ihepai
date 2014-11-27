@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true" >
+
+    <translate
+        android:duration="1800"
+        android:fromYDelta="0%p"
+        android:toYDelta="100%p" >
+    </translate>
+
+</set><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/anim/lockin_down.xml -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/grey_300" />
+            <!-- 圆角 -->
+            <corners android:radius="@dimen/radius" />
+        </shape> 
+       </item>
+    <item android:state_focused="false">
+        <shape>
+            <solid android:color="@color/grey_300" />
+
+            <corners android:radius="@dimen/radius" />
+        </shape>
+       </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/grey_500" />
+            <!-- 描边 -->
+            <stroke android:width="1px" android:color="@color/grey_700" />
+            <!-- 圆角 -->
+            <corners android:radius="@dimen/radius" />
+        </shape>
+      </item>
+    <item>
+        <shape>
+            <solid android:color="@color/grey_300" />
+            <corners android:radius="@dimen/radius" />
+        </shape>
+        
+    </item>
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable/edite_whitebg.xml -->

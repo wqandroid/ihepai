@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="12dp"
+        android:src="@drawable/test_head" />
+
+    <ImageView
+        android:id="@+id/iv_thumb"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/psb2" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_icon"
+        android:layout_toLeftOf="@id/iv_thumb"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/txt_title_color" />
+
+    <LinearLayout
+        android:id="@+id/center_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_toLeftOf="@id/iv_thumb"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_typeinfo"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/item_zan" />
+
+        <com.rockerhieu.emojicon.EmojiconTextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/grey_700" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/center_layout"
+        android:layout_below="@+id/center_layout"
+        android:text="刚刚"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/grey_500" />
+<View
+    android:layout_below="@id/iv_thumb"
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="@color/grey_400" />
+
+</RelativeLayout>

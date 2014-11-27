@@ -1,0 +1,121 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+      <item name="android:activityOpenEnterAnimation">@anim/act_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/act_in</item>
+        <item name="android:activityCloseEnterAnimation">@anim/act_exit</item>
+        <item name="android:activityCloseExitAnimation">@anim/act_exit</item>
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="custom_alert_dialog" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@drawable/null_bg</item>
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+
+    <style name="title_txt">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/item_bg</item>
+    </style>
+
+    <style name="titlebar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/titlebar_height</item>
+        <item name="android:background">@drawable/title_barbg</item>
+    </style>
+
+    <style name="setting_img">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <!--
+          android:layout_width="@dimen/fliter_img_size"
+                android:layout_height="@dimen/fliter_img_size"
+                android:layout_margin="@dimen/fliter_img_padingleft"
+                android:onClick="doclick"
+    -->
+    <style name="filer_style">
+        <item name="android:layout_width">@dimen/fliter_img_size</item>
+        <item name="android:layout_height">@dimen/fliter_img_size</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:onClick">doclick</item>
+    </style>
+
+    <style name="customDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <!-- 塞选菜单 -->
+    <style name="popright_text_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/popover_item_bg</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="popsetting_text_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/bitmap_fa_white</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/setting_txt</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="finshstyle">
+        <item name="android:layout_width">@dimen/titlebar_height</item>
+            <item name="android:scaleType">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">dofinish</item>
+        <item name="android:src">@drawable/finsh</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/item_bg</item>
+    </style>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/location_close" android:state_enabled="false"></item>
+    <item android:drawable="@drawable/location_close" android:state_checked="false"></item>
+    <item android:drawable="@drawable/location_open" android:state_checked="true"></item>
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable/locations.xml -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:state_pressed="true" >  
+        <shape>  
+             <solid android:color="@color/grey_300"/>  
+            <!-- 描边 -->  
+            <stroke  
+                android:width="2px"  
+                android:color="@color/grey_500"  
+                />  
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="3dp" />  
+        </shape>  
+    </item>  
+    
+     
+       <item android:state_enabled="false" >  
+        <shape>  
+             <solid android:color="@color/grey_200"/>  
+            <!-- 描边 -->  
+            <stroke  
+                android:width="2px"  
+                android:color="@color/grey_500"  
+                />  
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="3dp" />  
+        </shape>  
+    </item> 
+     
+    <item>        
+        <shape>  
+            <solid android:color="@color/card_white"/>  
+            <stroke  
+                android:width="2px"  
+                android:color="@color/grey_400" />  
+            <corners  
+               android:radius="3dp"
+            />  
+        </shape>  
+    </item>  
+
+</selector>

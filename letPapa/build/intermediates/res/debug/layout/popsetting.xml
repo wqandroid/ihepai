@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pop_set_user"
+            android:visibility="gone"
+            style="@style/popsetting_text_item_style"
+            android:text="个人设置" />
+
+        <View
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/grey_300"
+            />
+        <TextView
+             android:id="@+id/pop_set_cleracache"
+            style="@style/popsetting_text_item_style"
+            android:text="清空缓存" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/grey_300"
+            />
+
+        <TextView
+            android:id="@+id/pop_set_report"
+            style="@style/popsetting_text_item_style"
+            android:text="意见反馈" />
+            <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/grey_300"
+            />
+
+        <TextView
+            android:id="@+id/pop_set_aboutus"
+            android:drawableRight="@drawable/newbadage"
+            style="@style/popsetting_text_item_style"
+            android:text="关于我们" />
+            <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/grey_300"
+            />
+
+        <TextView
+            android:id="@+id/pop_set_logiout"
+            style="@style/popsetting_text_item_style"
+            android:text="退出登陆" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/layout/popsetting.xml -->

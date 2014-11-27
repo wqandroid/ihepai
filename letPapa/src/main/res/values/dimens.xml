@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fliter_img_size">64dp</dimen>
+    <dimen name="fliter_img_padingleft">6dp</dimen>
+    
+    
+    <dimen name="titlebar_height">56dp</dimen>
+    
+    <dimen name="dilog_title_heght">64dp</dimen>
+    
+    
+    <dimen name="radius">3dp</dimen>
+    
+    <dimen name="around_pading">8dp</dimen>
+    
+    <dimen name="layer_selection_height">72dp</dimen>
+    
+    <dimen name="titlebar_txtsize">22sp</dimen>
+    <dimen name="titlebar_smllsize">18sp</dimen>
+    
+    <dimen name="xlager_txt">24sp</dimen>
+    <dimen name="lager_txt">20sp</dimen>
+    <dimen name="xmid_txt">18sp</dimen>
+    <dimen name="mid_txt">16sp</dimen>
+    <dimen name="msmll_txt">14sp</dimen>
+    <dimen name="smll_txt">12sp</dimen>
+    <dimen name="xsmll_txt">10sp</dimen>
+    <dimen name="ck_broden">2dp</dimen>
+     <dimen name="ck_radius">2dp</dimen>
+</resources>

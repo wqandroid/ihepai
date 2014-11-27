@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.wq.letpapa"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#a0000000"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:overScrollMode="always"
+        android:scrollbars="none"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <com.wq.letpapa.customview.RotateImageView
+                android:id="@+id/filters_instant"
+                style="@style/filer_style"
+                android:src="@drawable/filters_instant"
+                app:degree="90" />
+
+            <com.wq.letpapa.customview.RotateImageView
+                android:id="@+id/filters_sol"
+                style="@style/filer_style"
+                android:src="@drawable/filters_sol"
+                app:degree="90" />
+
+            <com.wq.letpapa.customview.RotateImageView
+                android:id="@+id/filters_vivid"
+                style="@style/filer_style"
+                android:src="@drawable/filters_vivid"
+                app:degree="90" />
+
+            <com.wq.letpapa.customview.RotateImageView
+                android:id="@+id/filters_shoreline"
+                style="@style/filer_style"
+                android:src="@drawable/filters_shoreline"
+                app:degree="90" />
+
+            <com.wq.letpapa.customview.RotateImageView
+                android:id="@+id/filter_pro"
+                style="@style/filer_style"
+                android:src="@drawable/filters_pro"
+                app:degree="90" />
+
+            <com.wq.letpapa.customview.RotateImageView
+                android:id="@+id/filters_summer"
+                style="@style/filer_style"
+                android:src="@drawable/filters_summer" />
+
+            <com.wq.letpapa.customview.RotateImageView
+                android:id="@+id/filter_holga"
+                style="@style/filer_style"
+                android:src="@drawable/filters_holga"
+                app:degree="90" />
+
+            <com.wq.letpapa.customview.RotateImageView
+                android:id="@+id/filter_heibai"
+                style="@style/filer_style"
+                android:src="@drawable/filters_ansel"
+                app:degree="90" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

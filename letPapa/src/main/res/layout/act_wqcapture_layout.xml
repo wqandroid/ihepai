@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_black"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/capture_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/title_view"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:background="@color/theme_black" >
+
+            <ImageView
+                android:id="@+id/cancle_recoder"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:scaleType="center"
+                android:src="@drawable/camera_cancle" />
+        </RelativeLayout>
+        <com.wq.letpapa.customview.TouchOverlayView
+            android:id="@+id/touchOverlayView1"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_below="@+id/title_view"
+            android:orientation="vertical" >
+        </com.wq.letpapa.customview.TouchOverlayView>
+    </RelativeLayout>
+
+</LinearLayout>

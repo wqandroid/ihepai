@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true" 
+    android:fillBefore="false">
+
+    <alpha
+        android:duration="600"
+        android:fromAlpha="1"
+        android:toAlpha="0.8" />
+
+    <scale
+        android:duration="600"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:toXScale="0.9"
+        android:toYScale="0.9" />
+
+</set><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/anim/act_pause.xml -->

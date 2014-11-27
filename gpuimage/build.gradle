@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion "21.0.1"
+
+    defaultConfig {
+        applicationId "jp.co.cyberagent.android.gpuimage"
+        minSdkVersion 8
+        targetSdkVersion 15
+
+        ndk {
+            moduleName "gpuimage-library"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}

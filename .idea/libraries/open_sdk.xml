@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="open_sdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/letPapa/libs/open_sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

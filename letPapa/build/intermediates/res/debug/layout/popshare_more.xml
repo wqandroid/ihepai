@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_background"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/pop_set_save"
+            android:shadowColor="@color/white"
+            style="@style/popsetting_text_item_style"
+            android:text="保存" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/grey_300" />
+        <TextView
+            android:id="@+id/pop_set_share"
+            style="@style/popsetting_text_item_style"
+            android:text="分享" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/grey_300" />
+
+        <TextView
+            android:id="@+id/pop_set_report"
+            style="@style/popsetting_text_item_style"
+            android:text="举报" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/layout/popshare_more.xml -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>        
+        <shape>  
+            <corners android:radius="3dp"></corners>
+            <solid android:color="@color/white"/>  
+            <!-- -->
+            <stroke android:width="1px" android:color="@color/grey_50"/>
+             
+        </shape>  
+    </item>  
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable/bitmap_pop_bg.xml -->

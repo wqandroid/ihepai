@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/rootview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/red" >
+
+                <TextView
+                    android:id="@+id/tag_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/item_bg"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="ClickTopic"
+                    android:tag="3"
+                    android:text="#寻找另一半#"
+                    android:textColor="@color/white"
+                    android:textSize="36sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/theme_pink" >
+
+                    <TextView
+                        android:id="@+id/tag_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/item_bg"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="ClickTopic"
+                        android:tag="4"
+                        android:text="#萌萌哒#"
+                        android:textColor="@color/white"
+                        android:textSize="28sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#03a9f4" >
+
+                    <TextView
+                        android:id="@+id/tag_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/item_bg"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="ClickTopic"
+                        android:tag="5"
+                        android:text="#\n女神\n男神\n#"
+                        android:textColor="@color/white"
+                        android:textSize="28sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#03a627" >
+
+                    <TextView
+                        android:id="@+id/tag_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/item_bg"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="ClickTopic"
+                        android:tag="6"
+                        android:text="#恶搞无下限#"
+                        android:textColor="@color/white"
+                        android:textSize="22sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ff9800" >
+
+                    <TextView
+                        android:id="@+id/tag_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/item_bg"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="ClickTopic"
+                        android:tag="7"
+                        android:text="#创意神合拍#"
+                        android:textColor="@color/white"
+                        android:textSize="22sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#8e24aa" >
+
+                    <TextView
+                        android:id="@+id/tag_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/item_bg"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="ClickTopic"
+                        android:tag="8"
+                        android:text="#2B专区#"
+                        android:textColor="@color/white"
+                        android:textSize="22sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

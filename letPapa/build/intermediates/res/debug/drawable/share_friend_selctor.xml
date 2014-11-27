@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/friend_ring_s" android:state_checked="false"/>
+    <item android:drawable="@drawable/friend_ring" android:state_checked="true"/>
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable/share_friend_selctor.xml -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">i合拍</string>
+    <string name="camera_error_title">相机故障</string>
+    <string name="dialog_ok">好</string>
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
+    <string name="cannot_connect_camera">不能连接到相机</string>
+    <string name="camera_disabled">相机不可用</string>
+    <string name="pull_to_refresh_pull_label">拉动刷新&#8230;</string>
+    <string name="pull_to_refresh_release_label">释放刷新&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">加载中&#8230;</string>
+
+    <string-array name="theme_data">
+        <item>3#寻找另一半#</item>
+        <item>4#萌萌哒#</item>
+        <item>5#女神、男神#</item>
+        <item>6#恶搞无下线#</item>
+        <item>7#创意神合拍#</item>
+        <item>8#2B专区#</item>
+    </string-array>
+
+</resources>

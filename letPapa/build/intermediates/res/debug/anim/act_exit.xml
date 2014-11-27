@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    <scale
+        android:duration="900"
+        android:fromXScale="0.9"
+        android:fromYScale="0.9"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:toXScale="0.8"
+        android:toYScale="0.8" />
+
+</set><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/anim/act_exit.xml -->

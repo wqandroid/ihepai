@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "21.0.1"
+
+    defaultConfig {
+        applicationId "com.wq.letpapa"
+        minSdkVersion 14
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile project(':gpuimage')
+    compile project(':library')
+//    compile 'com.android.support:support-v4:18.+'
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/ShareSDK-Core-2.3.6.jar')
+    compile files('libs/ShareSDK-QQ-2.3.6.jar')
+    compile files('libs/ShareSDK-QZone-2.3.6.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.3.6.jar')
+    compile files('libs/ShareSDK-Wechat-2.3.6.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.3.6.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.3.6.jar')
+    compile files('libs/afinal_0.5_bin.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/locSDK_4.1.jar')
+    compile files('libs/mframework.jar')
+    compile files('libs/mta-sdk-1.0.0.jar')
+    compile files('libs/open_sdk.jar')
+    compile files('libs/pushservice-3.2.0.jar')
+}

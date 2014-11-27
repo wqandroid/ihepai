@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:state_pressed="true" >  
+        <shape>  
+             <solid android:color="@color/red_focuse"/>  
+            <!-- 描边 -->  
+            <stroke  
+                android:width="1px"  
+                android:color="@color/red_focuse"  
+                />  
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="2dp" />  
+        </shape>  
+    </item>  
+    
+        <item android:state_enabled="false" >  
+        <shape>  
+             <solid android:color="@color/grey_400"/>  
+            <!-- 描边 -->  
+            <stroke  
+                android:width="1px"  
+                android:color="@color/grey_500"  
+                />  
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="2dp" />  
+        </shape>  
+    </item>
+     
+    <item>        
+        <shape>  
+            <solid android:color="@color/red"/>  
+            <stroke  
+                android:width="1px"  
+                android:color="@color/red_focuse" />  
+            <corners  
+               android:radius="2dp"
+            />  
+        </shape>  
+    </item>  
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable-xhdpi/button_them.xml -->

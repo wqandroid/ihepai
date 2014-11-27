@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mframework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/letPapa/libs/mframework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

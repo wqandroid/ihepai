@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:state_checked="true" >  
+        <shape>  
+             <gradient 
+                android:startColor="#ff000c"
+                android:endColor="#06007a"
+                android:centerColor="#ff00e4"
+                android:angle="180"
+                android:type="sweep"
+                android:gradientRadius="20"
+                />
+            <!-- 描边    <solid android:color="@color/item_black"/>   -->  
+            <stroke  
+                android:width="@dimen/ck_broden"  
+                android:color="#ffffff"  
+                />  
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="@dimen/ck_radius" />  
+            <padding  
+                android:left="6dp"  
+                android:top="6dp"  
+                android:right="6dp"  
+                android:bottom="6dp" />  
+        </shape>  
+    </item>  
+    <item>        
+        <shape>  
+              <gradient 
+                android:startColor="#fe4200"
+                android:endColor="#06007a"
+                android:centerColor="#ff00e4"
+                android:angle="180"
+                android:type="sweep"
+                android:gradientRadius="20"
+                />
+              <!-- 
+            <solid android:color="@color/item_black"/>  
+             -->
+            <stroke  
+                android:width="@dimen/ck_broden"  
+                android:color="#00ffffff" />  
+            <corners  
+               android:radius="@dimen/ck_radius"
+            />  
+            <padding  
+                android:left="6dp"  
+                android:top="6dp"  
+                android:right="6dp"  
+                android:bottom="6dp" />  
+        </shape>  
+    </item>  
+
+</selector><!-- From: file:/Users/wangqiong/Documents/studioworkspace/LetPapa/letPapa/src/main/res/drawable/ck_colorful.xml -->

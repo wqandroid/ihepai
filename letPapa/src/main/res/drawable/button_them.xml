@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:state_pressed="true" >  
+        <shape>  
+             <solid android:color="@color/red_mid"/>  
+            <!-- 描边 -->  
+            <stroke  
+                android:width="1px"  
+                android:color="@color/red_focuse"  
+                />  
+            <!-- 圆角 -->  
+            <corners  
+                android:radius="2dp" />  
+        </shape>  
+    </item>  
+    <item>        
+        <shape>  
+            <solid android:color="@color/red"/>  
+            <stroke  
+                android:width="1px"  
+                android:color="@color/red_mid" />  
+            <corners  
+               android:radius="2dp"
+            />  
+        </shape>  
+    </item>  
+
+</selector>

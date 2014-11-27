@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.wq.letpapa"
+    android:id="@+id/frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <SurfaceView
+            android:id="@+id/surfaceView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/testlin"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/title_view"
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:background="@color/theme_black" >
+
+        <com.wq.letpapa.customview.RotateImageView
+            android:id="@+id/cancle_recoder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:src="@drawable/camera_cancle" />
+    </RelativeLayout>
+
+    <com.wq.letpapa.customview.TouchOverlayView
+        android:id="@+id/touchOverlayView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/title_view"
+        android:orientation="vertical" >
+    </com.wq.letpapa.customview.TouchOverlayView>
+
+    <RelativeLayout
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/title_view" >
+
+        <com.wq.letpapa.customview.RotateImageView
+            android:id="@+id/iv_flash"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:padding="5dp"
+            android:scaleType="center"
+            android:src="@drawable/flash_on"
+            app:degree="90" />
+
+        <com.wq.letpapa.customview.RotateImageView
+            android:id="@+id/iv_changecamera"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:padding="5dp"
+            android:scaleType="center"
+            android:src="@drawable/flip"
+            app:degree="90" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/touchOverlayView1"
+        android:background="@color/theme_black" >
+        
+        <View 
+            android:layout_marginLeft="20dp"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/theme_blue"
+            />
+
+        <com.wq.letpapa.customview.RotateImageView
+            android:id="@+id/take_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:padding="2dp"
+            android:src="@drawable/take_camera"
+            app:degree="90" />
+
+        <com.wq.letpapa.customview.RotateImageView
+            android:id="@+id/iv_chose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/camera_library"
+            app:degree="90" />
+
+        <com.wq.letpapa.customview.RotateImageView
+            android:id="@+id/iv_chosefilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:src="@drawable/camera_rotated"
+            app:degree="90" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/filer_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        layout="@layout/fliter_view"
+        android:visibility="gone" />
+
+</RelativeLayout>
